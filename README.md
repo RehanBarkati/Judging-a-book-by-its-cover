@@ -16,16 +16,24 @@ Dataset Link: https://www.kaggle.com/competitions/col774-2022/data
 Input and Output format
 
 a) requirements.txt: It include the pytorch version, torchvision version etc here.
-Any non-trivial libraries that are used are present here. This file would be run as pip install -r requirements.txt.
+Any non-trivial libraries that are used are present here. This file would be run as 
 
-b) cnn.py: Would be run as python3 cnn.py <dataset dir path>. This should train the
-CNN and generate a file <non comp test pred y.csv> containing non-competitive test
-set predictions.
+    pip install -r requirements.txt.
 
-c) rnn.py: Would be run as python3 rnn.py <dataset dir path>. This should train the
-RNN and generate a file <non comp test pred y.csv> containing non-competitive test
-set predictions.
+b) cnn.py: Would be run as 
 
-d) comp.py: Would be run as python3 comp.py <dataset dir path>. This should train
-the model used in the competitive part and generate a file <comp test y.csv> containing
-competitive test set predictions.
+    python3 cnn.py <dataset dir path>
+    
+   This should train the CNN and generate a file <non comp test pred y.csv> containing non-competitive test set predictions.
+
+c) rnn.py: Would be run as 
+
+    python3 rnn.py <dataset dir path>.
+    
+  This should train the RNN and generate a file <non comp test pred y.csv> containing non-competitive test set predictions.
+
+d) comp.py: Would be run as
+
+    python3 comp.py <dataset dir path>
+    
+   This should train the model used in the competitive part and generate a file <comp test y.csv> containing competitive test set predictions.
