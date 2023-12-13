@@ -8,3 +8,7 @@ The test data has around 11k cover images and book titles distributed equally am
 class. 
 
 Model: Implemented different models like CNN with images, CNN with text , LSTM with images and transfomers model. Reached an accuracy of around 62% from 18% using transformers model. 
+
+Competition Link: https://www.kaggle.com/competitions/col774-2022
+
+Dataset Link: https://www.kaggle.com/competitions/col774-2022/data
