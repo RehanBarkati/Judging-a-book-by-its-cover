@@ -1,0 +1,8 @@
+torchtext>=0.9.1
+spacy>= 3.4.3
+torch>= 1.8.1
+transformers >=4.24.0
+datasets>= 2.7.1
+evaluate >=0.3.0
+torchvision >=0.13.1
+cv2=4.6.0
